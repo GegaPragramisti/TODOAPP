@@ -5,11 +5,11 @@ function importValues() {
     const dateInputElement = document.getElementById("dateInput");
     const selectedInputElement = document.getElementById("selected");
 
-
+ 
     let obj = {
         name: nameInputElement.value,
         date: dateInputElement.value,
-        status: selectedInputElement.value
+        status: selectedInputElement.value 
     };
 
     list.push(obj)
