@@ -44,8 +44,7 @@ function drawList() {
                 <p>
                     ${element.date}
                 </p>
-                <select class="status">
-                    ${element.status}
+                <select value="${element.status}" class="status">
                     <option  value="open">open</option>
                     <option  value="closed">closed</option>
 
